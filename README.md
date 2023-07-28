@@ -52,7 +52,7 @@ Se usa una imagen base con soporte para Debian FROM debian:latest
 
 docker build -t nombre_imagen . (Reemplace 'nombre_imagen' por el nombre que desee darle a la imagen)
 
-4- Una vez creada la imagen, puede correr el contenedor con la siguiente instrucción: docker run -it -v ./datos_generados:/app/datos_generados nombre_imagen (Reemplace 'nombre_imagen' por el nombre que desee darle a la imagen)
+4- Una vez creada la imagen, puede correr el contenedor con la siguiente instrucción: docker run -it -v /home/usuario/archivos_generados:/app/archivos_generados nombre_imagen (Reemplace 'nombre_imagen' por el nombre que desee darle a la imagen)
 
 El comando ejecutara el menú desde el contenedor y la opción -v permitira acceder al contenido generado desde fuera.
 
