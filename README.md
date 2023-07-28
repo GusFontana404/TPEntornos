@@ -56,4 +56,7 @@ docker build -t nombre_imagen . (Reemplace 'nombre_imagen' por el nombre que des
 
 El comando ejecutara el menú desde el contenedor y la opción -v permitira acceder al contenido generado desde fuera.
 
-LINKS PARA PROBAR LA DESCARGA DE IMÁGENES EN EL MENÚ CON LA COMPROBACIÓN DE SUMA: -Link imagen: https://raw.githubusercontent.com/GusFontana404/imagen/main/Walter_Favio.jpg -Link suma correcta: https://raw.githubusercontent.com/GusFontana404/suma/main/README.txt -Link suma incorrecta: https://raw.githubusercontent.com/GusFontana404/suma_mal/main/README.txt
+LINKS PARA PROBAR LA DESCARGA DE IMÁGENES EN EL MENÚ CON LA COMPROBACIÓN DE SUMA: 
+-Link imagen: https://raw.githubusercontent.com/GusFontana404/imagen/main/Walter_Favio.jpg 
+-Link suma correcta: https://raw.githubusercontent.com/GusFontana404/suma/main/README.txt 
+-Link suma incorrecta: https://raw.githubusercontent.com/GusFontana404/suma_mal/main/README.txt
