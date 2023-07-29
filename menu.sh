@@ -1,12 +1,7 @@
 #!/bin/bash
 
 while true; do
-<<<<<<< HEAD
-	echo "-------------Menú de opciones-------------"
-=======
-  echo ""
   echo "-------------Menú de opciones-------------"
->>>>>>> rama_menu
 	echo "1- Generar imágenes"
 	echo "2- Descargar imágenes"
 	echo "3- Descomprimir archivo"
