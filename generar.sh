@@ -9,11 +9,7 @@ generar_nombres(){
 }
 
 read -p "Ingrese la cantidad de imágenes que desea generar: " cantidad
-if cantidad == 0; then
-	echo "Cantidad insuficiente para generar imágenes"
-	exit 1
-else
-	for (( i=1; i<=cantidad; i++));do
+for (( i=1; i<=cantidad; i++));do
 		nombre=$(generar_nombres "/app/archivos_generados/archivo.txt")
 		wget -qO "/app/archivos_generados/$nombre.jpg" https://thispersondoesnotexist.com/
 		gzip "/app/archivos_generados/$nombre.jpg"
