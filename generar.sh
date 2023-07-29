@@ -17,5 +17,4 @@ for (( i=1; i<=cantidad; i++));do
 		sleep 1
 	echo "Se generó correctamente la imagen"
 	done
-fi
 
