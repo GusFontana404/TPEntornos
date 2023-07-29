@@ -4,6 +4,7 @@ wget -qO "/app/archivos_generados/archivo.txt" https://raw.githubusercontent.com
 generar_nombres(){
         archivo=$1
         nombre=$(shuf -n 1 "$archivo"|cut -d "," -f 1|tr -s " "|tr " " "_"|tr "áéíóúÁÉÍÓÚ" "aeiouAEIOU")
+	echo "$nombre"
 }
 
 read -p "Ingrese una URL de la cual descargar la imagen: " enlace_imagen
