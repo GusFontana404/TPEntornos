@@ -4,7 +4,7 @@ wget -qO "/app/archivos_generados/archivo.txt"  https://raw.githubusercontent.co
 
 generar_nombres(){
         archivo=$1
-	nombre=$(shuf -n 1 "$archivo"|cut -d "," -f 1|tr -s " "|tr " " "_"|tr "áéíóúÁÉÍÓÚ" "aeiouAEIOU")
+	nombre=$(shuf -n 1 "$archivo"|cut -d "," -f 1|tr -s " "|tr " " "_"|sed -i "s/[áéíóúÁÉÍÓÚ]/[aeiouAEIOU]/g")
 	echo "$nombre"
 }
 
