@@ -31,6 +31,7 @@ Instrucciones para desplegar el contenedor Docker:
 -   Asegúrese de tener Docker instalado en su sistema.
 En una terminal se puede escribir el siguiente comando para verificarlo: docker --version (En caso de no contar con el programa, es necesario instalarlo)
 -   Para crear la imagen es necesario el uso del Dockerfile, el cual se encuentra incluido en el repositorio.
+
 `Las instrucciones del Dockerfile son las siguientes:`
 -   Usar una imagen base con soporte para Debian FROM debian:latest
 -   Copiar los scripts al contenedor COPY trabajo/*.sh /app/
@@ -50,6 +51,6 @@ docker run -it -v /home/usuario/archivos_generados:/app/archivos_generados nombr
 El comando ejecutara el menú desde el contenedor y la opción -v permitira acceder al contenido generado desde fuera.
 
 ## Links para probar la función de desacarga de imágenes del menú y la comprobación de suma: 
--   ['Link imagen'](https://drive.google.com/file/d/1MPOlGpw74KlYQ4bkX63ap9S8vQntRf0L/view?usp=drive_link) 
--   ['Link suma correcta'](https://drive.google.com/file/d/1H5GsgPgXSEqTgKnmc3q4Z7y7zqh1xxZc/view?usp=drive_link)
--   ['Link suma incorrecta'](https://drive.google.com/file/d/1jD7nyM6iXsRUgYsJgQtiA-nHvfezYPfl/view?usp=drive_link)
+-   [Link imagen](https://drive.google.com/file/d/1MPOlGpw74KlYQ4bkX63ap9S8vQntRf0L/view?usp=drive_link) 
+-   [Link suma correcta](https://drive.google.com/file/d/1H5GsgPgXSEqTgKnmc3q4Z7y7zqh1xxZc/view?usp=drive_link)
+-   [Link suma incorrecta](https://drive.google.com/file/d/1jD7nyM6iXsRUgYsJgQtiA-nHvfezYPfl/view?usp=drive_link)
